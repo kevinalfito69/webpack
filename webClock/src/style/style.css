@@ -1,0 +1,24 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.clock {
+    animation-duration: 200;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 400px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(75, 69, 83);
+    color: #fff;
+    box-shadow: 2px 1px 6px 2px rgba(0, 0, 0, 0.3);
+}
+.clock .time {
+    font-size: 3em;
+}
+@media (min-width: 600px) {
+    .clock {
+        margin-top: 300px;
+    }
+}
