@@ -1,4 +1,4 @@
-![webpack](https://d17ivq9b7rppb3.cloudfront.net/original/academy/20200313163923ddf1c4f937107ffe80d299dd072edcb2.gif)
+
 # webpack
 Pada dasarnya webpack merupakan module bundler untuk aplikasi JavaScript modern. 
 Ketika webpack dijalankan pada proyek kita, di belakang layar webpack akan mengobservasi modul apa saja yang kita gunakan dan membungkus modul-modul tersebut menjadi satu berkas (atau lebih).
