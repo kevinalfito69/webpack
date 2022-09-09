@@ -1,10 +1,8 @@
-* {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+body {
+    font-family: "Segoe UI";
 }
 .clock {
-    animation-duration: 200;
     border-radius: 10px;
-    margin: auto;
     max-width: 400px;
     padding: 40px;
     display: flex;
@@ -17,8 +15,15 @@
 .clock .time {
     font-size: 3em;
 }
+.pesan {
+    font-weight: bold;
+}
 @media (min-width: 600px) {
-    .clock {
-        margin-top: 300px;
+    .container {
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
